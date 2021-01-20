@@ -1,0 +1,14 @@
+
+$theme-colors: (
+  "primary":    pink,
+  "secondary":  purple,
+  "success":    red,
+  "info":       magenta,
+  "warning":    teal,
+  "danger":     olive,
+  "light":      brown,
+  "dark":       orange
+);
+
+
+@import "../../bootstrap/scss/bootstrap";
