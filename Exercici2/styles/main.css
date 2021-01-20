@@ -1,3 +1,92 @@
+/* MY CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.buttons-container {
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+}
+
+.button1 {
+  position: absolute;
+  animation: bounce 5s linear infinite alternate;
+}
+
+.button2 {
+  position: absolute;
+  animation: bounce 4s linear infinite alternate;
+}
+
+.button3 {
+  position: absolute;
+  animation: bounce 3s linear infinite alternate;
+}
+
+.button4 {
+  position: absolute;
+  animation: bounce 6s linear infinite alternate;
+}
+
+.button5 {
+  position: absolute;
+  animation: bounce 7s linear infinite alternate;
+}
+
+.button6 {
+  position: absolute;
+  animation: bounce 8s linear infinite alternate;
+}
+
+.button7 {
+  position: absolute;
+  animation: bounce 9s linear infinite alternate;
+}
+
+.button8 {
+  position: absolute;
+  animation: bounce 10s linear infinite alternate;
+}
+
+@keyframes bounce {
+  0%
+  {
+      top:10vh;
+      left: 0px;
+  }    
+  25%
+  {
+      top: 90vh;
+      left: 25%
+  }    
+  50%
+  {
+      top: 0vh;
+      left: 50%;
+  }    
+  75%
+  {
+      top: 90vh;
+      left: 75%;
+  }    
+  100%
+  {
+      top: 0vh;
+      left: 100%;
+  }
+}
+
+
+
+/* BOOTSTRAP CSS */
+
+
+
+
+
 @charset "UTF-8";
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
@@ -10622,3 +10711,12 @@ textarea.form-control-lg {
 /* $theme-colors: map-merge($theme-colors, $custom-colors); */
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+
+
