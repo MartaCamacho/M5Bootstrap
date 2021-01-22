@@ -1,0 +1,15 @@
+
+/* GENERAL LAYOUT */
+
+
+/* NAVBAR */
+
+.logo {
+    width: 120px;
+}
+
+@media screen and (min-width: 600px) {
+    .logo {
+        width: 150px;
+    }
+}
